@@ -1,0 +1,449 @@
+.stepSection {
+    margin: 70px auto 40px;
+    margin-top: 20px;
+    color: #000;
+}
+
+#deposit_screen {
+    max-height: 226px;
+}
+.stepSection_heroTitle {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 140%;
+    /* identical to box height, or 59px */
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    /* Native-RPL/Red */
+
+    color: #A82216;
+    margin-bottom: 40px;
+}
+
+.dep-arrow {
+    margin-left: 10px;
+    width: 15px;
+}
+
+.stepSection_stepsContainer {
+    border-radius: 20px;
+}
+.big-phrase {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.btnn {
+    max-width: 332px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #A82216;
+    border-radius: 5px;
+    padding: 25px 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+.btnn:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+     color: #fff;
+}
+.stepSection_stepWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stepSection_stepWrapper.step1 {
+    margin: 0 0 30px;
+}
+
+.stepSection_stepWrapper.step2 {
+    flex-direction: row-reverse;
+    margin: 40px 0 30px;
+}
+
+.stepSection_stepWrapper.step3 {
+    margin: 50px 0 0;
+}
+
+.stepSection_textWrapper {
+    width: 100%;
+}
+
+.step1 .stepSection_textWrapper {
+    max-width: 355px;
+    padding: 20px 0 0;
+    margin-right: 10px;
+}
+
+.step2 .stepSection_textWrapper {
+    max-width: 355px;
+    padding: 20px 0 0;
+    margin-left: 10px;
+}
+
+.step3 .stepSection_textWrapper {
+    max-width: 410px;
+    padding: 10px 0 0;
+    margin-right: 30px;
+}
+
+.arrowDown {
+    text-align: center;
+    animation: arrows 1.5s infinite;
+}
+
+@keyframes arrows {
+    to {
+        transform: translateY(25px);
+        opacity: 0;
+    }
+}
+
+p.stepSection_textSubTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+
+
+    color: #B7B7B7;
+    margin-bottom: 15px;
+}
+
+.stepSection_textTitle {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+p.stepSection_textDescriprion {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+
+    color: #232323;
+}
+
+.stepSection_cardWrapper {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.step1 .stepSection_cardWrapper {
+    max-width: 375px;
+}
+
+.step2 .stepSection_cardWrapper {
+    max-width: 600px;
+}
+
+.step3 .stepSection_cardWrapper {
+    max-width: 300px;
+    padding: 0;
+}
+
+.stepSection_descriptionContainer {
+    width: 100%;
+    margin-right: 5px;
+}
+
+.stepSection_descriptionTextWrapper {
+    background: linear-gradient(0deg, rgba(25, 151, 73, 0.1), rgba(25, 151, 73, 0.1)), #FFFFFF;
+    border: 2px solid #199749;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.stepSection_descriptionTextWrapper:not(:first-of-type) {
+    margin-top: 5px;
+}
+
+p.stepSection_descriptionText {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.stepSection_descriptionTextWrapper.part1 {
+    height: 48%;
+}
+
+.stepSection_descriptionTextWrapper.part2 {
+    height: 49%;
+}
+
+.step2 .stepSection_descriptionTextWrapper {
+    height: 99%;
+    width: 100%;
+}
+
+.stepSection_formContainer {
+    max-width: 274px;
+    position: relative;
+}
+
+.formVector1 {
+    position: absolute;
+    top: 35%;
+    left: -28px;
+    animation: bounce 1600ms infinite;
+}
+
+.formVector1Down {
+    position: absolute;
+    top: 8%;
+    left: -50px;
+    animation: bounceDiagonalDown 1600ms infinite;
+}
+
+.formVector2 {
+    position: absolute;
+    top: 60%;
+    left: -28px;
+    animation: bounce 1600ms infinite;
+}
+
+.formVector2Up {
+    position: absolute;
+    top: 42%;
+    left: -50px;
+    animation: bounceDiagonalUp 1600ms infinite;
+}
+
+.depVector {
+    position: absolute;
+    top: 68%;
+    left: -34px;
+    z-index: 9;
+    animation: bounce 1600ms infinite;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes bounceDiagonalDown {
+    50% {
+        transform: translate(5px, 5px);
+    }
+}
+
+@keyframes bounceDiagonalUp {
+    50% {
+        transform: translate(5px, -5px);
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .stepSection_descriptionText {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 767px) {
+    .deposit-card {
+        left: -90% !important;
+    }
+    .step2 .stepSection_descriptionTextWrapper {
+        width: 100%;
+    }
+    .stepSection_heroTitle {
+        font-size: 27px;
+        line-height: 120%;
+        margin-bottom: 15px;
+    }
+    .stepSection_stepWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step1 .stepSection_textWrapper {
+        text-align: center;
+        max-width: 100%;
+        margin-right: 0;
+        padding: 0;
+    }
+    .step2 .stepSection_textWrapper {
+        text-align: center;
+        margin-left: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+    .step3 .stepSection_textWrapper {
+        text-align: center;
+        max-width: 100%;
+        margin-right: 0;
+        padding: 0;
+    }
+    .stepSection_stepWrapper.step2 {
+        flex-direction: column;
+    }
+    .stepSection_stepWrapper.step3 {
+        padding: 0;
+    }
+    .step3 .stepSection_cardWrapper {
+        margin: 0;
+    }
+
+    .stepSection {
+        margin: 5px auto 75px;
+    }
+    p.stepSection_textSubTitle {
+        font-size: 14px;
+        line-height: 25px; 
+        margin-bottom: 10px;
+    }
+    p.stepSection_textDescriprion {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .stepSection_cardWrapper {
+        margin-top: 10px;
+    }
+    p.stepSection_descriptionText {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .stepSection_stepWrapper.step1 {
+        margin: 0 0 20px;
+    }
+    .stepSection_stepWrapper.step2 {
+        margin: 15px 0 20px;
+    }
+    .stepSection_stepWrapper.step3 {
+        margin: 25px 0 20px;
+    }
+    .stepSection_stepsContainer {
+        padding: 0;
+    }
+    .stepSection_textTitle {
+        font-size: 24px;
+        line-height: 32px;
+        color: #A82216;
+        margin-bottom: 10px;
+    }
+    .stepSection_textSubTitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .stepSection_descriptionTextWrapper.part1 {
+        height: 48%;
+    }
+    .stepSection_descriptionTextWrapper.part2 {
+        height: 50%;
+    }
+    .stepSection_formContainerImg,
+    .stepSection_depContainerImg {
+        width: 175px;
+        height: 99%;
+    }
+    @keyframes arrows {
+        to {
+            transform: translateY(15px);
+            opacity: 0;
+        }
+    }
+    .formVector1Down {
+        width: 40px;
+        left: -33px
+    }
+    .formVector2Up {
+        width: 40px;
+        left: -33px
+    }
+    .depVector {
+        width: 40px;
+        top: 66%;
+        left: -35px;
+    }
+    .stepSection_descriptionText {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0 10px;
+    }
+    .step3 .stepSection_cardWrapper {
+        max-width: 300px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 460px) and (max-width: 767px) {
+    .deposit-card {
+        left: -54% !important;
+        min-height: 471px !important;
+    }
+}
+
+@media all and (max-width: 460px) {
+    .arrowDown img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .deposit-card {
+           left: -61% !important;
+        min-height: 471px !important;
+    }
+    .big-phrase {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+}
+
